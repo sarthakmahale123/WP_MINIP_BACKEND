@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+#form{
+    background-color: rgb(255, 255, 255);
+    width:25%;
+    border-radius: 4px;
+    margin:120px auto;
+    padding:50px;
+    box-shadow: 10px 10px 5px rgb(37, 34, 37);
+}
+
+#btn{
+    color:rgb(255, 255, 255);
+    background-color: rgb(108, 22, 189);
+    padding:10px;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 35%;
+}
+@media screen and (max-width: 570px) {
+    #form {
+      width: 65%;
+      margin-left:none;
+      padding:40px;
+    }
+  }
+
+@media screen and (max-width: 570px) {
+    .formgroup {
+      width: 65%;
+      margin-left:none;
+      padding:40px;
+    }
+  }
+#login{
+    text-align: center;
+    font-family: sans-serif;
+}
